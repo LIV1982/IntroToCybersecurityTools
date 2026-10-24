@@ -11,7 +11,7 @@
 
 | 项目 | 内容 |
 | --- | --- |
-| 环境地址 |http://challenge-af337ef430db0391.sandbox.ctfhub.com:10800|
+| 环境地址 | http://challenge-af337ef430db0391.sandbox.ctfhub.com:10800 |
 | Flag | ctfhub{f94bf433268b06ae84e48ef4} |
 
 ## 解题过程

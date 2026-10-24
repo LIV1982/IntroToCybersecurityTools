@@ -180,11 +180,11 @@ Content-Type: text/html
 
 | 题目 | CTFHub 路径 | WP 文件 | Flag |
 | --- | --- | --- | --- |
-| 目录遍历 | 信息泄露 → 目录遍历 | [wp_dir_traversal.md](wp/wp_dir_traversal.md) | ctfhub{9899a2a772939c0ac95053ac} |
-| PHPINFO | 信息泄露 → PHPINFO | [wp_phpinfo.md](wp/wp_phpinfo.md) |	ctfhub{79ea23f87e51f6c5beb79db2}  |
-| 请求方式 | Web 前置技能 → HTTP 协议 → 请求方式 | [wp_http_method.md](wp/wp_http_method.md) |ctfhub{a4ca00a24073339795f6a0c9}  |
+| 目录遍历 | 信息泄露 → 目录遍历 | [wp_dir_traversal.md](wp/wp_dir_traversal.md) | ctfhub{c1736d31e6f6ee4a3f0e14e3} |
+| PHPINFO | 信息泄露 → PHPINFO | [wp_phpinfo.md](wp/wp_phpinfo.md) | ctfhub{79ea23f87e51f6c5beb79db2} |
+| 请求方式 | Web 前置技能 → HTTP 协议 → 请求方式 | [wp_http_method.md](wp/wp_http_method.md) | ctfhub{a4ca00a24073339795f6a0c9} |
 | 302 跳转 | Web 前置技能 → HTTP 协议 → 302 跳转 | [wp_redirect_302.md](wp/wp_redirect_302.md) | ctfhub{8a0ffc4f92bc82b702de4e77} |
-| Cookie | Web 前置技能 → HTTP 协议 → Cookie | [wp_cookie.md](wp/wp_cookie.md) |ctfhub{f94bf433268b06ae84e48ef4} |
+| Cookie | Web 前置技能 → HTTP 协议 → Cookie | [wp_cookie.md](wp/wp_cookie.md) | ctfhub{f94bf433268b06ae84e48ef4} |
 | 基础认证 | Web 前置技能 → HTTP 协议 → 基础认证 | [wp_basic_auth.md](wp/wp_basic_auth.md) | ctfhub{6271bf8ca679c9ea111a055e} |
 
 > 每道题的题目要求、提示、截图要求和写作提示都写在对应的 WP 模板里。**不要改动 WP 文件名和本表的链接**；如果某道题临时下线，按老师通知替换题目，并同步修改本表和对应 WP，不要删除整行。
@@ -201,8 +201,8 @@ Content-Type: text/html
 | --- | --- | --- |
 | 目录遍历 | 请求行 | 路径可控，读取服务器任意文件 |
 | PHPINFO | 响应体 | 页面泄露PHP环境、敏感配置信息 |
-| 请求方式 | 请求行（Method） |服务端校验请求方法，需要指定方法访问 |
-| 302 跳转 |响应头（Location） | 页面跳转，需要跟随跳转获取资源 |
+| 请求方式 | 请求行（Method） | 服务端校验请求方法，需要指定方法访问 |
+| 302 跳转 | 响应头（Location） | 页面跳转，需要跟随跳转获取资源 |
 | Cookie | 请求头Cookie字段 | Cookie参数可控，用来传递身份标识 |
 | 基础认证 | 请求头Authorization | Basic认证，需要账号密码爆破认证 |
 
